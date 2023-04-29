@@ -30,7 +30,7 @@ class InstagramPost extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Row(
-                      children: [
+                      children:const [
                         CircleAvatar(
                           backgroundImage:
                               NetworkImage('https://picsum.photos/50'),
@@ -44,13 +44,13 @@ class InstagramPost extends StatelessWidget {
                         ),
                       ],
                     ),
-                    Icon(Icons.more_vert),
+                   const Icon(Icons.more_vert),
                   ],
                 ),
               ),
               Container(
                 height: 300.0,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   image: DecorationImage(
                     image: NetworkImage(
                         'https://images.unsplash.com/photo-1524511498335-b0ed6b8e9a69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=913&q=80'),
@@ -64,7 +64,7 @@ class InstagramPost extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Row(
-                      children: [
+                      children: const [
                         Icon(
                           Icons.favorite,
                           color: Colors.red,
@@ -75,7 +75,7 @@ class InstagramPost extends StatelessWidget {
                         Icon(Icons.send_rounded),
                       ],
                     ),
-                    Icon(Icons.bookmark_border),
+                   const Icon(Icons.bookmark_border),
                   ],
                 ),
               ),
@@ -83,7 +83,7 @@ class InstagramPost extends StatelessWidget {
                 padding: const EdgeInsets.only(right: 100),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
+                  children:const  [
                     Text(
                       'Gowsalya_natraj',
                       style: TextStyle(fontWeight: FontWeight.bold),
